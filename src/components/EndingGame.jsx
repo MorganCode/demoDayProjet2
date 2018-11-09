@@ -28,7 +28,7 @@ class EndingGame extends Component {
                     <h1 className="fourth">4. {this.playerRanking[2]}</h1>
                 </div>
                 <div className="buttonLink">
-                    <Link style={{outline:'none !important', textDecoration:'none'}}exact to="/">
+                    <Link style={{outline:'none !important', textDecoration:'none'}}exact to= {process.env.PUBLIC_URL + '/'}>
                         <div className="button-EG">
                             New Game
                         </div>

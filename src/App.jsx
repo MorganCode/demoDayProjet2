@@ -13,10 +13,10 @@ class App extends Component {
     return (
       <BrowserRouter>
       <Switch>
-      <Route exact path="/" component = {MainMenu} />
-      <Route exact path= '/ChoicePlayers' component = {ChoicePlayers}/>
-      <Route exact path= '/GameZone' component = {GameZone} />
-      <Route exact path= '/EndingGame' component = {EndingGame}/>
+      <Route exact path= {process.env.PUBLIC_URL + '/'} component = {MainMenu} />
+      <Route exact path= {process.env.PUBLIC_URL + '/ChoicePlayers'} component = {ChoicePlayers}/>
+      <Route exact path= {process.env.PUBLIC_URL + '/GameZone'} component = {GameZone} />
+      <Route exact path= {process.env.PUBLIC_URL + '/EndingGame'} component = {EndingGame}/>
       </Switch>
       </BrowserRouter>
     );

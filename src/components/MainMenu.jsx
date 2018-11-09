@@ -1,5 +1,5 @@
 //App.jsx
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row,  } from 'reactstrap';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './MainMenu.css';
@@ -24,7 +24,7 @@ class MainMenu extends Component {
           <Container className='wrapper'>
             <Row className='line'>Spells Duel</Row>
             <Row className='line'>
-              <Link className='lien' onClick='this.stopAudio()'  to='/ChoicePlayers'> New Game </Link>
+              <Link className='lien' onClick='this.stopAudio()'  to={process.env.PUBLIC_URL + '/ChoicePlayers'}> New Game </Link>
             </Row>
           </Container> 
         </div>
