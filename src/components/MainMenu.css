@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Chelsea+Market|Handlee|Mali');
+
+.fond{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('http://bismarckschule.de/wp-content/uploads/hogwts.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+
+
+}
+.line
+{
+  display: flex;
+  width: 700px;
+  font-size: 130px;
+  color:#AF6710;
+  justify-content: center;
+  font-family: 'Chelsea Market', serif;
+  margin-top: 95px;
+ 
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto !important;
+}
+
+.row .lien{
+  width: 272px;
+  height:109px;
+  margin-top: 207px;
+  padding-top: 20px;
+  padding-left: 11px;
+  background-image: url('https://img.lght.pics/Dj1O.png');
+  background-size: cover;
+  border-radius: 10px;
+  color: cornsilk;
+  text-decoration: none;
+  font-size: 33px;
+  text-align: center;
+}
+
+.row .lien:hover{
+  color:#AF6710;
+  text-decoration: none;
+}
+

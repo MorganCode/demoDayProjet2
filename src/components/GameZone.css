@@ -1,0 +1,70 @@
+
+.App {
+  margin: 0 !important;
+  width: 100vw;
+  height: 100vh;
+  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+  background-color: #201e1e;
+
+}
+
+.App-header {
+  position: fixed;
+  top: 0vh;
+  right: 0vw;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: #FFD700;
+  position: fixed;
+  top: 0vh;
+  left: 12vw;
+
+}
+.buttonSound{
+  outline: none !important;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+    width: 8vw;
+    display: inline-block;
+    height: 3vh;;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1vw;
+    margin-top: 1vh;
+
+}
+
+.buttonSound:active{
+  background-color: #8f8a8a;
+  transform: translateY(2px);
+}
+.buttonSoundStop{
+  outline: none !important;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+    width: 8vw;
+    display: inline-block;
+    height: 3vh;;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.buttonSoundStop:active{
+  background-color: #8f8a8a;
+  transform: translateY(2px);
+}

@@ -1,0 +1,180 @@
+
+/*------Container-----------*/
+
+.boulet{
+  
+    max-width: 80% !important;
+    
+}
+div.container{
+    margin:0 11vw;
+}
+.row{
+    width: 80vw;
+    
+}
+.card{
+    font-size: 15px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ChoicePlayers{
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: bottom;
+    width: 100vw;
+    background-image: url('http://image.noelshack.com/fichiers/2018/45/3/1541587113-grande-salle.jpg');
+    background-attachment: fixed;
+}
+.menusValidation{
+    max-width: 80% !important;
+    margin: 0 0 0 14vw !important;
+    padding: 15px 0 0 0;
+    text-shadow: 2px 2px 10px #3E2B26;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 25px;
+}
+.menusValidation1{
+    max-width: 80% !important;
+    margin: 0 0 0 14vw !important;
+    margin-top: -100px !important;
+    padding: 15px 0 0 0;
+    text-shadow: 2px 2px 10px #3E2B26;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*------Cards Players-------*/
+
+button.btn.btn-secondary{
+    font-weight: bold;
+    background-image: #9b1515;
+    border-color: #ffffff;
+    border-radius: 10%
+}
+
+/*------Pseudo Player-------*/
+
+.Pseudo{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+::placeholder{
+    color: #9b1515;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*------Vaider Mon Choix-------*/
+
+.ValiderMonChoix{
+    outline: none !important;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+ 
+    display: inline-block;
+    padding: 19px 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    background-image: url('https://img.lght.pics/Dj1O.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height:80px;
+    width: 200px;
+}
+
+
+
+.ValiderMonChoix:active{
+  
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(5px);
+}
+div.col-sm-5.offset-sm-0{
+    margin: 0 0 0 -3vw !important;
+}
+
+
+
+
+/*------Cursors Mouse-------*/
+
+.ChoicePlayers{
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=26747"), pointer;
+}
+
+/*-------Reset les choix----*/
+div.col-sm-3.offset-sm-1{
+    margin: 0 0 0 -3vw !important;
+} 
+.cursor{
+    display: flex;
+    justify-content: center;
+    
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), pointer;
+    display: flex;
+    padding: 25px 25px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: cornsilk;
+    background-image: url(https://img.lght.pics/Dj1O.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110px;
+    width: 270px;
+   
+}
+
+.cursor2{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #EA953C;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    margin-left: 70px;
+    border-radius: 14px;
+}
+.cursor:active{
+
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(5px);
+}
+
+/* ---Les visuelles des choix de joueurs ----*/
+
+.PlayersChoiceVisu{
+    margin: 30px 0 5px 0;
+}
+
+a.cursor{
+    text-decoration: none !important;
+    outline: none !important; 
+    
+}
+a.cursor:hover{
+    color: white;
+}
+

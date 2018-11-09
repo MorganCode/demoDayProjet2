@@ -1,0 +1,10 @@
+.Menusplay{
+  position: fixed;
+  bottom: 0vh;
+  background-color: #444242;
+  height: 100vh;
+  
+  color: white;
+ 
+  width: 1100px;
+}

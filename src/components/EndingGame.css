@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Chelsea+Market|Handlee|Mali');
+
+
+.victory {
+    background-position: left top;
+    background-size: cover;
+    background-image: url('https://img.lght.pics/2msg.jpg');
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ranking {
+    background-color: rgba(252, 248, 227, 0.3);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Chelsea Market', serif;
+    margin:auto;
+}
+
+
+h1.first {
+    color: #7e161f;
+    font-size: 90px;
+    text-shadow: 5px 5px 15px #190506;
+}
+
+h1.second {
+    color:goldenrod ;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px #291c13;
+    margin-left: 200px;
+}
+h1.third {
+    color: goldenrod ;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px #291c13;
+    margin-left: 200px;
+}
+h1.fourth {
+    color: goldenrod;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px #291c13;
+    margin-left: 200px;
+}
+
+.buttonLink {
+    display: flex;
+    margin:auto;
+    background-image: url('https://img.lght.pics/Dj1O.png');
+    background-size:cover;
+    width: 250px;
+    height:100px; 
+}
+
+.button-EG {
+    font-family: 'Chelsea Market', serif;
+    font-size: 30px;
+    color:cornsilk;
+    text-align:center;
+    margin:20px;
+    padding-top: 3px;
+    padding-left: 25px;
+}
+
+.button-EG:hover {
+    outline: none !important;
+    color:goldenrod;
+
+}
