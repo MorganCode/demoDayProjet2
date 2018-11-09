@@ -337,7 +337,7 @@ class ChoicePlayers extends Component {
                     
                     <Row style={{ alignItems: 'center',marginTop:'15px', textDecoration:'none important', outline:'none !important' }}>
                         <Col sm={{ size: '3', offset: 3 }}>{this.state.players.length >= 2 ? (<div><Link className='cursor' to={{ pathname: process.env.PUBLIC_URL + '/GameZone', state: { players: this.state.players } }} >Lancer la partie</Link></div>) : null}</Col>
-                        <Col sm={{ size: '3', offset: 1 }}><a className='cursor2' href='/ChoicePlayers' style={{ color: 'white', textDecoration: 'none', fontSize: '15px' }}>Reset les choix</a></Col>
+                        <Col sm={{ size: '3', offset: 1 }}><a className='cursor2' href= {process.env.PUBLIC_URL + '/ChoicePlayers'} style={{ color: 'white', textDecoration: 'none', fontSize: '15px' }}>Reset les choix</a></Col>
                      </Row>
                    </Container>
                    <br/>

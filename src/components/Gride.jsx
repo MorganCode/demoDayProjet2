@@ -515,7 +515,7 @@ class Gride extends Component {
 
     if (this.state.showEndGame) {
       return <Redirect push to={{
-        pathname: "/EndingGame",
+        pathname: process.env.PUBLIC_URL + '/EndingGame',
         state: {
           winner: this.state.players[this.state.currentPlayer],
           deathPlayers: this.state.deathPlayers
